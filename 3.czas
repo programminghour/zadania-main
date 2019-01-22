@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int s,m,h;
+
+    cin >> s;
+
+
+    while(s>3600)
+    {
+        h++;
+        s-=3600;
+    }
+
+    while(s>60)
+        {
+            m++;
+            s-=60;
+        }
+
+
+    cout << g<<"g"<<m<<"m"<<s<<"s"<< endl;
+
+    return 0;
+}
